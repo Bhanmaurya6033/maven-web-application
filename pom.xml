@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.88.142.99:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.30.52:9000/</sonar.host.url>
 		<sonar.login>squ_6ae78e2e3c5fa1ac71236889c400cdab5ad8d3f3</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>indusindbank-releases</name>
-	      <url>http://50.17.8.204:8081/repository/indusindbank-releases/</url>
+	      <url>http://172.31.22.177:8081/repository/indusindbank-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>indusindbank-snapshot</name>
-	      <url>http://50.17.8.204:8081/repository/indusindbank-snapshot/</url>
+	      <url>http://172.31.22.177:8081/repository/indusindbank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
